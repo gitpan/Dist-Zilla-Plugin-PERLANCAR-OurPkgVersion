@@ -1,0 +1,61 @@
+NAME
+    Dist::Zilla::Plugin::PERLANCAR::OurPkgVersion - no line insertion and
+    does Package version with our
+
+VERSION
+    This document describes version 0.03 of
+    Dist::Zilla::Plugin::PERLANCAR::OurPkgVersion (from Perl distribution
+    Dist-Zilla-Plugin-PERLANCAR-OurPkgVersion), released on 2014-08-26.
+
+SYNOPSIS
+    in dist.ini
+
+            [PERLANCAR::OurPkgVersion]
+
+    in your modules
+
+            # VERSION
+
+    or
+
+            our $VERSION = '0.123'; # VERSION
+
+DESCRIPTION
+    This module is like Dist::Zilla::Plugin::OurPkgVersion but can replace
+    the previously generated "our $VERSION = '0.123'; " bit. If the author
+    of OurPkgVersion thinks this is a good idea, then perhaps this module
+    will be merged with OurPkgVersion.
+
+SEE ALSO
+    Dist::Zill::Plugin::OurPkgVersion
+
+    Another approach: Dist::Zill::Plugin::RewriteVersion and
+    Dist::Zill::Plugin:::BumpVersionAfterRelease
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <https://metacpan.org/release/Dist-Zilla-Plugin-PERLANCAR-OurPkgVersion>
+    .
+
+SOURCE
+    Source repository is at
+    <https://github.com/perlancar/perl-Dist-Zilla-Plugin-SHARYANTO-OurPkgVer
+    sion>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Dist-Zilla-Plugin-PER
+    LANCAR-OurPkgVersion>
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
+
+AUTHOR
+    perlancar <perlancar@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by perlancar@cpan.org.
+
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
+
